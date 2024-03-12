@@ -1,0 +1,102 @@
+.product-detail {
+    margin-top: 15px;
+    &-image {
+
+    }
+    &-header {
+        .cate {
+            font-size: 14px;
+            font-weight: 400;
+            span {
+                color: #242424;
+            }
+            a {
+                color: #0d6efd;
+            }
+        }
+        h1 {
+            margin: 0px 0px 4px;
+            color: rgb(36, 36, 36);
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 32px;
+            word-break: break-word;
+        }
+
+        .vote {
+            a, span {
+                color: #787878;
+            }
+            svg {
+                font-size: 15px;
+                margin-right: 5px;
+                &.active {
+                    color: #fdd836;
+                }
+            }
+        }
+    }
+    .box-price {
+        display: flex;
+        flex-direction: column;
+        border-radius: 4px;
+        background-color: rgb(250, 250, 250);
+        padding: 0px 16px 12px;
+        .price {
+            span {
+                font-size: 32px;
+                line-height: 40px;
+                margin-right: 8px;
+                font-weight: 500;
+                color: rgb(255, 66, 78);
+            }
+            sub.discount {
+                color: rgb(128, 128, 137);
+                text-decoration: line-through;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+    .seller-info {
+        border-radius: 4px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #f2f2f2;
+        .overview {
+            display: flex;
+            justify-content: space-between;
+            .logo {
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                object-fit: contain;
+                margin-right: 10px;
+            }
+            .seller-name {
+                span {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                img {
+                    width: 68px;
+                    height: 14px;
+                }
+            }
+        }
+    }
+}
+.table-default {
+    tr td:first-child {
+        width: 220px;
+        vertical-align: top;
+        color: rgb(79, 79, 79);
+        font-size: 13px;
+        font-weight: 500;
+        background: rgb(239, 239, 239);
+    }
+    tr {
+        font-size: 13px;
+    }
+}
